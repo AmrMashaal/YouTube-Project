@@ -362,6 +362,11 @@ header .right.two i:hover {
   cursor: pointer;
   margin-bottom: 22px;
   margin-right: 6px;
+  position: relative;
+}
+
+.right2 .box:hover .fa-ellipsis-vertical{
+  display: block;
 }
 
 .right2 .box .img-holder {
@@ -413,6 +418,15 @@ header .right.two i:hover {
   font-size: 15px;
   margin-top: 4px;
   align-items: center;
+}
+
+.fa-ellipsis-vertical {
+  position: absolute;
+  color: var(--black-white);
+  right: 13px;
+  bottom: 33px;
+  font-size: 17px;
+  display: none;
 }
 
 .right2 .box .info .text .channel-name h5 {
