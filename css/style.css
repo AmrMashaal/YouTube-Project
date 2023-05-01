@@ -464,7 +464,7 @@ header .right.two i:hover {
   position: absolute;
   color: var(--black-white);
   right: 13px;
-  bottom: 33px;
+  bottom: 15px;
   font-size: 17px;
   display: none;
 }
